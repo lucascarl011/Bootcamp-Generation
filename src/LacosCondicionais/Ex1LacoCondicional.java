@@ -2,6 +2,8 @@ package LacosCondicionais;
 
 import java.util.Scanner;
 
+                         // VALORES INTEIROS A,B e C - EX 01
+
 public class Ex1LacoCondicional {
     public static void main(String[] args) {
         Scanner entrada = new Scanner(System.in);

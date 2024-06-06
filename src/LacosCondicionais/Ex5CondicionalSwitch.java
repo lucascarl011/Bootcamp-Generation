@@ -1,8 +1,8 @@
 package LacosCondicionais;
 
 import java.util.Scanner;
-
-public class Ex1CondicionalSwitch {
+                            // VENDAS - EX 05
+public class Ex5CondicionalSwitch {
     public static void main(String[] args) {
         Scanner entrada = new Scanner(System.in);
 

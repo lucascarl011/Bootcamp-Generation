@@ -2,7 +2,9 @@ package LacosCondicionais;
 
 import java.util.Scanner;
 
-public class Ex2CondicionalSwitch {
+                  // CALCULADORA - EX 07
+
+public class Ex7CondicionalSwitch {
     public static void main(String[] args) {
         Scanner entrada = new Scanner(System.in);
 
