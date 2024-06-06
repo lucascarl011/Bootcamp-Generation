@@ -25,10 +25,14 @@ public class Ex3LacoCondicional {
             if (idade < 60) {
                 apto = true;
                 System.out.println(nome+",  você está apto(a) para doar sangue!!!");
-            }else {
-                apto = !primeiraDoacao;
-                System.out.println(nome+", você não está apto(a) para doar sangue!!!");
+            }else if (idade <= 69 && !primeiraDoacao){
+                            apto = true;
             }
+        }
+        if (apto) {
+            System.out.println(nome+", Você está apto(a) para doar sangue!");
+        }else {
+            System.out.println(nome+", você não está apto(a) para doar sangue!");
         }
     }
 }
