@@ -31,6 +31,6 @@ public class Ex3Set {
             System.out.println(iterator.next());
         }
 
-        sc.close();
+
     }
 }
